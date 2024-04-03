@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-  <title>くぼっちブログ: About</title>
-  <meta name="description" content="About kubocchi-blog" />
+  <title>くぼっちノート: About</title>
+  <meta name="description" content="About kubocchi-note" />
 </svelte:head>
 
 <main>

@@ -10,7 +10,7 @@
       <a href="/contact" class="footer__links__item__link">Contact</a>
     </li>
     <li class="footer__links_item">
-      <span class="footer__copy-right">© 2024 くぼっちブログ</span>
+      <span class="footer__copy-right">© 2024 くぼっちノート</span>
     </li>
   </ul>
 </footer>

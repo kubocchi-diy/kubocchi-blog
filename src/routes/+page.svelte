@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>くぼっちブログ: ホーム</title>
+  <title>くぼっちノート: ホーム</title>
   <meta name="description" content="kubocchi blog home" />
 </svelte:head>
 
