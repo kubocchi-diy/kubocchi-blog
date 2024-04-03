@@ -1,4 +1,5 @@
-<div class="container"><slot /></div>
+<div class="page"><slot /></div>
+
 
 <style>
   .container {

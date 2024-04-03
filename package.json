@@ -29,7 +29,7 @@
 		"fecha": "^4.2.3",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
-		"svelte": "^5.0.0-next.1",
+		"svelte": "^5.0.0-next.93",
 		"svelte-check": "^3.6.0",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tabler/core": "^1.0.0-beta20",
 		"newt-client-js": "^3.3.1"
 	}
 }

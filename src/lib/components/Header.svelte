@@ -33,6 +33,13 @@
     font-size: 1.5rem;
     line-height: 6.2rem;
   }
+  @media (max-width: 768px) {
+    .header__title {
+      flex-direction: column;
+      font-size: 1.25rem;
+      line-height: 7.0rem;
+    }
+  }
 
   .header__links {
     display: flex;
