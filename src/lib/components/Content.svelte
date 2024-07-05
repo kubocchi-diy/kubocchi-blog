@@ -1,6 +1,6 @@
 <div class="page-wrapper">
   <div class="page-body">
-    <div class="container-xl">
+    <div class="container-sm">
       <slot />
     </div>
   </div>
