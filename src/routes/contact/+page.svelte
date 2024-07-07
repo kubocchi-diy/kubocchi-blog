@@ -3,7 +3,7 @@
 
 
 <svelte:head>
-  <title>くぼっちノート: お問い合わせ</title>
+  <title>くぼっちブログ: お問い合わせ</title>
   <meta name="description" content="kubocchi blog contact" />
 </svelte:head>
 

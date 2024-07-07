@@ -23,6 +23,7 @@
 		"@types/eslint": "^8.56.0",
 		"@typescript-eslint/eslint-plugin": "^7.0.0",
 		"@typescript-eslint/parser": "^7.0.0",
+		"daisyui": "^4.12.10",
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0-next.4",
@@ -38,7 +39,11 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@svelteuidev/composables": "^0.15.6",
+		"@svelteuidev/core": "^0.15.6",
 		"@tabler/core": "^1.0.0-beta20",
-		"newt-client-js": "^3.3.1"
+		"autoprefixer": "^10.4.19",
+		"newt-client-js": "^3.3.1",
+		"postcss": "^8.4.39"
 	}
 }

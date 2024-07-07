@@ -1,4 +1,4 @@
 export const blogMetaData = {
-  blogTitle: 'くぼっちノート',
+  blogTitle: 'くぼっちブログ',
   description: ''
 }

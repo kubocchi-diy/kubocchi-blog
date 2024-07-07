@@ -4,6 +4,8 @@
   import Container from "$lib/components/Container.svelte";
   import Content from "$lib/components/Content.svelte";
   import Footer from "$lib/components/Footer.svelte";
+
+  import '../app.css';
 </script>
 
 <Container>
