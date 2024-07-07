@@ -1,4 +1,3 @@
-
 <script lang="ts">
   import PostList from '$lib/components/PostList.svelte';
   import PostItem from '$lib/components/Post.svelte'
@@ -7,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>くぼっちノート: ホーム</title>
+  <title>くぼっちブログ: ホーム</title>
   <meta name="description" content="kubocchi blog home" />
 </svelte:head>
 

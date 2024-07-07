@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>くぼっちノート: About</title>
+  <title>くぼっちブログ: About</title>
   <meta name="description" content="About kubocchi-note" />
 </svelte:head>
 
