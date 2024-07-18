@@ -6,35 +6,22 @@
 
 </script>
 
-<div class="post-item">
+<div class="py-6 flex flex-row-reverse gap-6 md:gap-10 items-start">
   {#if post.publishedAt}
-    <p class="post-item__date">{format(new Date(post.publishedAt), "MMMM DD, YYYY")}</p>
+    <div class="card-body">
+      <p class="text-sm text-gray-500">{format(new Date(post.publishedAt), "MMMM DD, YYYY")}</p>
+    </div>
   {/if}
-  <h2 class="post-item__title">
-    <a class="post-item__title__link" href={`/articles/${post.slug}`}
-      >{post.title}</a
-    >
-  </h2>
-  <p class="post-item__description">{post.description}</p>
+  <!-- <figure>
+    <img src={post.imageUrl} alt={post.title} class="object-cover h-48 w-full" />
+  </figure> -->
+  <div class="flex flex-col gap-4">
+    <h2 class="text-2xl font-bold">
+      <a href={`/articles/${post.slug}`} class="text-xl hover:text-blue-500">{post.title}</a>
+    </h2>
+    <p class="text-sm text-base-content/70">{post.description}</p>
+    <div class="card-actions justify-end">
+      <a href={`/articles/${post.slug}`} class="btn btn-primary">Read more</a>
+    </div>
+  </div>
 </div>
-
-<style>
-  .post-item {
-    border-bottom: solid 1px var(--border-color);
-    padding: 1rem 0;
-    line-height: 1.6;
-  }
-  .post-item__date {
-    color: var(--secondary-color);
-  }
-
-  .post-item__title {
-    margin: 0.5rem 0;
-  }
-
-  .post-item__title__link {
-    color: var(--main-color);
-    font-size: 1.5rem;
-    text-decoration: none;
-  }
-</style>

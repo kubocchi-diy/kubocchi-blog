@@ -1,10 +1,6 @@
-<div class="page-wrapper">
-  <div class="page-body">
-    <div class="container-sm">
-      <slot />
-    </div>
-  </div>
-</div>
+<main>
+  <slot />
+</main>
 
 
 <style>

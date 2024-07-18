@@ -42,6 +42,7 @@
 		"@svelteuidev/composables": "^0.15.6",
 		"@svelteuidev/core": "^0.15.6",
 		"@tabler/core": "^1.0.0-beta20",
+		"@tailwindcss/typography": "github:tailwindcss/typography",
 		"autoprefixer": "^10.4.19",
 		"newt-client-js": "^3.3.1",
 		"postcss": "^8.4.39",
