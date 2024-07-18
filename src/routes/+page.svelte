@@ -16,15 +16,33 @@
     <div class="hero-content text-center">
       <div class="max-w-md pt-5 pb-10">
         <div class="grid grid-flow-col gap-10">
-          <a href="https://www.yahoo.co.jp">
-            <IconCoffee size={45} />
-          </a>
-          <a href="https://www.yahoo.co.jp">
-            <IconBook size={45} />
-          </a>
-          <a href="https://www.yahoo.co.jp">
-            <IconDeviceGamepad size={45} />
-          </a>
+          <div class="dropdown dropdown-hover">
+            <a tabindex="0" href="https://www.yahoo.co.jp">
+              <IconCoffee size={45} />
+            </a>
+            <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+            <div tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+              <p>喫茶店で作業するのにご支援ください</p>
+            </div>
+          </div>
+          <div class="dropdown dropdown-hover">
+            <a tabindex="0" href="https://www.yahoo.co.jp">
+              <IconBook size={45} />
+            </a>
+            <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+            <div tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-60 p-2 shadow">
+              <p>知識・ノウハウを身につけるのにご支援ください</p>
+            </div>
+          </div>
+          <div class="dropdown dropdown-hover">
+            <a tabindex="0" href="https://www.yahoo.co.jp">
+              <IconDeviceGamepad size={45} />
+            </a>
+            <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+            <div tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-60 p-2 shadow">
+              <p>ゲーム開発のためのご支援ください</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
