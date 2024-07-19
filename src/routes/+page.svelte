@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>くぼっちブログ: ホーム</title>
+  <title>くぼっちブログ</title>
   <meta name="description" content="kubocchi blog home" />
 </svelte:head>
 
@@ -15,10 +15,10 @@
   <div class="hero">
     <div class="hero-content text-center">
       <div class="max-w-md pt-5 pb-10">
-        <div class="grid grid-flow-col gap-10">
+        <div class="flex flex-col items-center gap-10">
           <div class="dropdown dropdown-hover">
             <a tabindex="0" href="https://www.yahoo.co.jp">
-              <IconCoffee size={45} />
+              <IconCoffee class="w-10 h-10 sm:w-12 sm:h-12" />
             </a>
             <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
             <div tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
@@ -27,7 +27,7 @@
           </div>
           <div class="dropdown dropdown-hover">
             <a tabindex="0" href="https://www.yahoo.co.jp">
-              <IconBook size={45} />
+              <IconBook class="w-10 h-10 sm:w-12 sm:h-12" />
             </a>
             <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
             <div tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-60 p-2 shadow">
@@ -36,7 +36,7 @@
           </div>
           <div class="dropdown dropdown-hover">
             <a tabindex="0" href="https://www.yahoo.co.jp">
-              <IconDeviceGamepad size={45} />
+              <IconDeviceGamepad class="w-10 h-10 sm:w-12 sm:h-12" />
             </a>
             <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
             <div tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-60 p-2 shadow">

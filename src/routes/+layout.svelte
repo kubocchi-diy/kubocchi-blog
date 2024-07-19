@@ -1,7 +1,8 @@
 <script lang="ts">
   import { blogMetaData } from '$lib/blogMetaData';
-	import { IconBrandInstagram, IconBrandXFilled, IconBrandYoutubeFilled } from '@tabler/icons-svelte';
+	import { IconBrandInstagram, IconBrandXFilled, IconBrandYoutubeFilled, IconMenu2 } from '@tabler/icons-svelte';
   import '../styles/global.css';
+
 </script>
 
 <div class="flex flex-col h-screen justify-between">
@@ -9,17 +10,16 @@
     <div class="flex-1">
       <a href="/" class="btn btn-ghost text-xl">{blogMetaData.blogTitle}</a>
     </div>
-    <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
-        <li><a href="https://kubocchi-blog.onrender.com/">くぼっちアート</a></li>
-        <li><a href="https://www.yahoo.co.jp">くぼっちゲームズ</a></li>
+    <div class="flex-none block md:block">
+      <ul class="menu menu-horizontal px-1 text-xs md:text-base">
+        <li><a href="https://kubocchi-blog.onrender.com">くぼっちゲームズ</a></li>
       </ul>
     </div>
   </div>
   
   <slot />
   
-  <footer class="footer bg-neutral text-neutral-content items-center p-4">
+  <footer class="footer bg-neutral text-neutral-content items-center p-4 text-sm md:text-base">
     <aside class="grid-flow-col items-center">
       <p>Copyright © {new Date().getFullYear()} - All right reserved by kubocchi</p>
     </aside>
